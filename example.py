@@ -14,7 +14,7 @@ import copy
 from euclid import *
 from rigid_body import *
 
-# Set Up window
+# Set Up Window
 window = pyglet.window.Window(800, 600,"Pynewt Test",True)
 keys = key.KeyStateHandler()
 window.push_handlers(keys)
