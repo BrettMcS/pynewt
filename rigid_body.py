@@ -5,7 +5,7 @@ from math import sin
 import sys
 
 class Sim:
-	""" Main simulation class.  Contains universal forces and list of all rigid bodies """
+	""" Main simulation class.   Contains universal forces and list of all rigid bodies """
 	def __init__ (self, gravity=Vector3(0,0,-10), ground=False):
 		self.gravity = gravity
 		self.bodies=[]
